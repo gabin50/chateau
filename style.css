@@ -1,45 +1,43 @@
 body{
-    width: 100%;
-    height: 25%;
-    background-color: #000000;
+  display: grid;
+  grid-template-areas:
+    "tip tip"
+    "mid mid"
+    "down1 down2";
+  grid-template-columns: 1fr 2fr;
+  width: 390px;
+  height: 844px;
 }
 
+
 #p1{
-    width: 100%;
-    height: 25%;
     background-color: #ff0000;
     margin: 0;
     border-color: aqua;
     border-style: dashed;
+    grid-area: tip;
 }
 
 #p2{
-    width: 100%;
-    height:25%;
     background-color: #18b043;
     margin: 0;
-        border-color: aqua;
+    border-color: aqua;
     border-style: dashed;
-
+    grid-area: mid;
 }
 
 #p3{
-    width: 100%;
-    height: 25%;
     background-color: #2e22b7;
     margin: 0;
-        border-color: aqua;
+    border-color: aqua;
     border-style: dashed;
-
+    grid-area: down1;
 }
 
 #p4{
-    width: 100%;
-    height:25%;
     background-color: #e1e121;
     margin: 0;
-        border-color: aqua;
-    
+    border-color: aqua;
+    grid-area: down2;
     border-style: dashed;
-
 }
