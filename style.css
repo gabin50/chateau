@@ -1,12 +1,12 @@
 body{
-    width: 390px;
-    height: 844px;
+    width: 100%;
+    height: 25%;
     background-color: #000000;
 }
 
 #p1{
-    width: 390px;
-    height: 205px;
+    width: 100%;
+    height: 25%;
     background-color: #ff0000;
     margin: 0;
     border-color: aqua;
@@ -14,8 +14,8 @@ body{
 }
 
 #p2{
-    width: 390px;
-    height: 205px;
+    width: 100%;
+    height:25%;
     background-color: #18b043;
     margin: 0;
         border-color: aqua;
@@ -24,8 +24,8 @@ body{
 }
 
 #p3{
-    width: 390px;
-    height: 205px;
+    width: 100%;
+    height: 25%;
     background-color: #2e22b7;
     margin: 0;
         border-color: aqua;
@@ -34,11 +34,12 @@ body{
 }
 
 #p4{
-    width: 390px;
-    height: 205px;
-    background-color: #18b043;
+    width: 100%;
+    height:25%;
+    background-color: #28g743;
     margin: 0;
         border-color: aqua;
+    
     border-style: dashed;
 
 }
