@@ -41,3 +41,49 @@ body{
     grid-area: down2;
     border-style: dashed;
 }
+
+#pnj_bleu{
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    top: 420px;
+    transform: translateX(300px);
+    background-color: fuchsia;}
+
+#compteur_bleu{
+    background-color: red;
+    width: 40px;
+    height: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 450px;
+    left: 50px;
+}
+
+#date_bleu{
+    background-color: green;
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    left: 250px;
+}
+
+#bouton_date{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 30px;
+    left: 340px;
+}
