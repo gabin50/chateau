@@ -1,0 +1,318 @@
+body{
+  display: grid;
+  grid-template-areas:
+    "s1 s1"
+    "s2 s2"
+    "s3 s4"
+    "s5 s6";
+  grid-template-columns: 1fr 2fr;
+  width: 390px;
+  height: 700px;
+  background-color: black;
+}
+
+#s1{
+    grid-area: s1;
+    width: 390px;
+    height: 175px;
+}
+
+#s2{
+    grid-area: s2;
+    width: 390px;
+    height: 175px;
+}
+
+#s3{
+    grid-area: s3;
+    width: 195px;
+    height: 175px;
+}
+
+#s4{
+    grid-area: s4;
+    width: 195px;
+    height: 175px;
+}
+
+#s5{
+    grid-area: s5;
+    width: 195px;
+    height: 175px;
+}
+
+#s6{
+    grid-area: s6;
+    width: 195px;
+    height: 175px;
+}
+
+#fond{
+    display: none;
+    background-color: #515151;
+    position: absolute;
+    width: 390px;
+    height: 700px;
+    top: -10px;
+    opacity: 65%;
+    transition: 5s;
+}
+
+#croix{
+    background-color: red;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 7px;
+    width: 15px;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    left: 330px;
+    top: 20px;
+    display: none;
+}
+
+#date{
+    background-color: #1d0093;
+    color: white;
+    font-weight: bolder;
+    width: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 20px;
+    border: 5px solid grey;
+    position: absolute;
+    left: 300px;
+}
+
+/* ________________________________________________________ */
+
+#s1bis{
+    display: none;
+    position: absolute;
+    width: 390px;
+    height: 175px;
+    transition: 3s;
+}
+
+#pnjs1{
+    width: 92px;
+    height: 110px;
+    position: absolute;
+    left: 157px;
+    top: 270px;
+    opacity: 50%;
+    border-radius: 100%;
+    display: none;
+}
+
+#compteurs1{
+    position: absolute;
+    width: 38px;
+    top: 110px;
+    left: 177px;
+    height: 35px;
+    /* background-color: wheat; */
+    padding-top: 22px;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-left: 18px;
+    color: aqua;
+}
+
+/* _______________________________________________________ */
+
+#s2bis{
+    display: none;
+    position: absolute;
+    width: 390px;
+    height: 175px;
+    top: 263px;
+}
+
+#pnjs2a{
+    width: 75px;
+    height: 110px;
+    position: absolute;
+    left: 42px;
+    top: 260px;
+    opacity: 50%;
+    display: none;
+}
+
+#pnjs2b{
+    width: 60px;
+    height: 70px;
+    position: absolute;
+    left: 282px;
+    top: 285px;
+    opacity: 50%;
+    display: none;
+}
+
+#compteurs2a{
+    position: absolute;
+    width: 38px;
+    top: 298px;
+    left: 45px;
+    height: 22px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-left: 18px;
+    color: wheat;
+}
+
+#compteurs2b{
+    position: absolute;
+    width: 50px;
+    top: 285px;
+    left: 280px;
+    height: 22px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-left: 18px;
+    color: wheat;
+}
+
+/* _______________________________________________________ */
+
+#s3bis{
+    display: none;
+    position: absolute;
+    top: 182px;
+    width: 390px;
+    height: 350px;
+}
+
+#pnjs3{
+    width: 190px;
+    height: 200px;
+    position: absolute;
+    left: 100px;
+    top: 230px;
+    opacity: 50%;
+    display: none;
+}
+
+#compteurs3{
+    position: absolute;
+    width: 38px;
+    top: 460px;
+    left: 150px;
+    height: 35px;
+    padding-top: 22px;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-left: 18px;
+    color: wheat;
+}
+
+/* ______________________________________________________ */
+
+#s4bis{
+    display: none;
+    position: absolute;
+    top: 182px;
+    width: 390px;
+    height: 350px;
+}
+
+#pnjs4{
+    width: 120px;
+    height: 220px;
+    position: absolute;
+    left: 100px;
+    top: 220px;
+    opacity: 50%;
+    display: none;
+}
+
+#compteurs4{
+    position: absolute;
+    width: 38px;
+    top: 410px;
+    left: 332px;
+    height: 35px;
+    padding-top: 22px;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-left: 18px;
+    color: wheat;
+}
+
+/* ______________________________________________________ */
+
+#s5bis{
+    display: none;
+    position: absolute;
+    top: 182px;
+    width: 390px;
+    height: 350px;
+}
+
+#pnjs5{
+    width: 150px;
+    height: 140px;
+    position: absolute;
+    left: 120px;
+    top: 270px;
+    opacity: 50%;
+    display: none;
+}
+
+#compteurs5{
+    position: absolute;
+    width: 38px;
+    top: 550px;
+    left: 2px;
+    height: 35px;
+    padding-top: 22px;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-left: 18px;
+    color: wheat;
+}
+
+/* ______________________________________________________ */
+
+#s6bis{
+    display: none;
+    position: absolute;
+    top: 182px;
+    width: 390px;
+    height: 350px;
+}
+
+#pnjs6{
+    width: 350px;
+    height: 180px;
+    position: absolute;
+    left: 20px;
+    top: 320px;
+    opacity: 50%;
+    display: none;
+}
+
+#compteurs6{
+    position: absolute;
+    width: 38px;
+    top: 550px;
+    left: 235px;
+    height: 35px;
+    padding-top: 22px;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-left: 18px;
+    color: wheat;
+}
